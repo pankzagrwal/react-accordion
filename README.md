@@ -1,11 +1,11 @@
-#React Accordion Component  
+# React Accordion Component  
 
 
-##How to use:
+## How to use:
 
-import {Accordion, AccordionComponent as AccordionContent} from './app/index.js';
+ `import {Accordion, AccordionComponent as AccordionContent} from './app/index.js';
 
-      `Accordion collapseAll = {false} defaultOpen = {"acc_1"}>
+     Accordion collapseAll = {false} defaultOpen = {"acc_1"}>
         <AccordionContent title = "header One" id = "acc_0">
           abc Content
         </AccordionContent>
@@ -17,15 +17,15 @@ import {Accordion, AccordionComponent as AccordionContent} from './app/index.js'
 
         </Accordion>`
 
-##Configuration
+## Configuration
 
-###Accordion- Parent Element
-collapseAll: Boolean Flag, if all accordion can be collapsed
-defaultOpen: Id of the accordion to be open by default
+### Accordion- Parent Element
+- collapseAll: Boolean Flag, if all accordion can be collapsed
+- defaultOpen: Id of the accordion to be open by default
 
-###AccordionContent - Child Element
-title: String, Text to display as Title of Accordion
-id: Mandatory, Unique Id for each accordion content
+### AccordionContent - Child Element
+- title: String, Text to display as Title of Accordion
+- id: Mandatory, Unique Id for each accordion content
 
 
 
