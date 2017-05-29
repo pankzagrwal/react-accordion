@@ -3,12 +3,24 @@
 }
 
 
+.accordion-content-div {
+	display: block;
+}
+
 .accordion-list-comp .hide-accordion {
-	display: none;
+	transition: all .1s ease-out;
+    max-height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    opacity: 0; 
+    animation: 1s fadeIn;
 }
 
 .accordion-list-comp .show-accordion {
-	display: block;
+	transition: all 1.5s ease-out;
+	opacity: 1;
+	visibility: visible;
+    max-height:500px;
 }
 
 #root {
